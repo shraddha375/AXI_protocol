@@ -1,11 +1,11 @@
-    `timescale 1ns / 1ps
+`timescale 1ns / 1ps
      
-    module handshake();
+module handshake();
      
-    localparam new_data = 0, wait_for_slave = 1;
-    localparam wait_for_data = 0, process_data = 1;
+    localparam new_data = 0, wait_for_slave = 1;    // Master : 2 states
+    localparam wait_for_data = 0, process_data = 1; // Slave  : 2 states
      
-    reg m_state = 0,s_state = 0;
+    reg m_state = 0,s_state = 0; // Holds current state of Master and Slave
      
     reg [7:0] m_data,s_data;
     reg m_validout;
