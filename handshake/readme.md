@@ -13,13 +13,13 @@ An SDRAM Controller is a hardware block that:
 
 The fundamental memory cell within a DRAM consists of a transistor and a capacitor. 
 
-<img src="https://github.com/shraddha375/sdram_controller/blob/main/images/image_1.jpg" width=100% height=100%>
+<img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image1.jpg" width=100% height=100%>
 
 When you want to **write** to a memory cell:
 - Enable the Wordline
 - Apply VDD/GND on the Bitline
 
-<img src="https://github.com/shraddha375/sdram_controller/blob/main/images/image_2.jpg" width=100% height=100%>
+<img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image2.jpg" width=100% height=100%>
 
  When you want to **read** from a memory cell:
 - Precharge Bitline to VDD/2
@@ -28,7 +28,7 @@ When you want to **write** to a memory cell:
 - Apply Refresh 
 
 <p align="center">
- <img src="https://github.com/shraddha375/sdram_controller/blob/main/images/image_3.jpg" width=50% height=50%>
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image3.jpg" width=100% height=100%>
 </p>
 
 ## Concept of Refresh
