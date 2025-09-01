@@ -46,3 +46,9 @@ Rules:
 <p align="center">
  <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image5.jpg" width=50% height=50%>
 </p>
+
+## Flowcharts for Master and Slave
+
+### For Master
+
+### For Slave
