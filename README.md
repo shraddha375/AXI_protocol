@@ -26,7 +26,15 @@
 | `Low Complexity`                            | `Low Complexity`                          | `Higher Complexity`                                                                  |
 | `High speed, high throughput` data transfer | `Simple register access`                  | `High performance`, supports `bursts`, multiple outstanding transctions              |
 
+In a simple memory,
+<pic>
+Problems: 
+- No signal to indiacte if write data valid/ read data valid (No way of knowing if the data is valid)
+- Write address or Read address is valid
+- Whether memory update is a success or not
+- Whether memory is free or busy
 
+To fix these issues
 
 
 
