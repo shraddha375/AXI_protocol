@@ -6,12 +6,10 @@
 - AXI Lite
 - AXI Full
 
-| Signal    | AXI Stream | AXI Lite |
-|-----------|------------|----------|
-| `clk`     | 1-bit      | 1-bit    |
-| `rstn_h`  | 1-bit      | 1-bit    |
-| `rs1n`    | 5-bits     | -        |
-| `rs2n`    | 5-bits     | -        |
-| `rdn`     | 5-bits     | -        |
-| `rdd`     | 32-bits    | 32-bits  |
-| `wbe`     | 1-bit      | 1-bit    |
+| AXI Stream                                  | AXI Lite                                  | AXI Full                                                                             |
+|---------------------------------------------|-------------------------------------------|--------------------------------------------------------------------------------------|
+| `No address`, purely data transfer          | `Single address` per transaction          | `Multiple address` supported in a burst mode                                         |
+| `No burst support`, single data transfers   | `No burst support`, single data transfers | `Supports burst` transactions                                                        |
+| `Simple handshaking`                        | `Simple handshaking`                      | `Complex handshaking` with multiple signals and support for out of order transctions |
+| `Low Complexity`                            | `Low Complexity`                          | `Higher Complexity`                                                                  |
+| `High speed, high throughput` data transfer | `Simple register access`                  | `High performance`, supports `bursts`, multiple outstanding transctions              |
