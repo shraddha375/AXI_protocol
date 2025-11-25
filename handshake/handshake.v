@@ -3,15 +3,17 @@
 module handshake();
      
     localparam new_data = 0, wait_for_slave = 1;    // Master : 2 states
+     
     localparam wait_for_data = 0, process_data = 1; // Slave  : 2 states
      
-    reg m_state = 0,s_state = 0; // Holds current state of Master and Slave
+    reg m_state = 0, s_state = 0; // Holds current state of Master and Slave
      
-    reg [7:0] m_data,s_data;
-    reg m_validout;
-    reg s_readyout;
-    reg rstn;
-    reg clk = 0;
+    reg [7:0] m_data, s_data; // Data to be transfered from master to slave
+    reg m_validout; // Master's valid signal
+    reg s_readyout; // Slave's ready signal
+     
+    reg rstn; // Reset
+    reg clk = 0; // Clock
      
     always #10 clk = ~clk;
 
@@ -54,7 +56,7 @@ module handshake();
      /////////////////////// slave logic
      
      always@(posedge clk) begin
-          if(rstn==1'b0) begin
+          if(rstn == 1'b0) begin
                s_data     <= 0;
                s_readyout <= 0;
           end
