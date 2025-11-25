@@ -179,9 +179,46 @@ Position byte is used to indicate the correct relative position of the data byte
 
 <img width="990" height="367" alt="image" src="https://github.com/user-attachments/assets/e292c320-2aba-4a3f-a58a-c759cbd1e23b" />
 
+### Custom AXI Interface
+
+AXI Interface can be made form:
+- Peripheral RTL from Scratch: More control over latency and strict timing requirements
+- Vivado Verilog Template
+- Vivado HLS: Specify an interface and HLS will automatically generate an interface; Less control over latency
+
+### AXIS Module
+
+Rules to recap:
+
+1. We neednot wait for the tready signal before applying the tvalid signal.
+2. As long as tready is high, you can apply new data but as soon as it is low, you need to hold tvalid and tdata (tlast as well if applicable) values until tready is high again.
+
+##### Scenario 1:
+
+<pic>
+
+
+##### Scenario 2:
+
+<pic>
+
+
+##### Scenario 3:
+
+<pic>
+
+#### AXIS Master
+
+<pic>
+<pic>
+
+#### AXIS Slave
+
+<pic>
+<pic>
 
 ## References
 
-
+- Udemy
 - https://www.allaboutcircuits.com/technical-articles/introduction-to-the-advanced-extensible-interface-axi/
 - https://fpgaemu.readthedocs.io/en/latest/axi.html
