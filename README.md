@@ -50,8 +50,8 @@ All the above channels have handshaking mechanism between master and slave to fi
 
 ## Valid Ready Handshake
 
-- **Master**: Inititate a transaction
-- **Slave**: Serve the request of a master
+- `**Master**`: Inititate a transaction
+- `**Slave**`: Serve the request of a master
 
 <pic>
 
@@ -72,6 +72,20 @@ Valid Ready Handshake Rules:
 - Ready and Valid signals should be `independent`.
 - Ready could be `asserted prior` to or after valid.
 - Valid must remain high until the `completion of transfer` or until `Ready becomes high`.
+
+<pic>
+<pic>
+<pic>
+
+Flowchart for Master's and Slave's operation:
+
+Master:
+
+<pic>
+
+Slave:
+
+<pic>
 
 
 
