@@ -109,6 +109,18 @@ Valid Ready Handshake Rules:
  <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image7.jpg" width=50% height=50%>
 </p>
 
+## AXI Stream 
+
+### AXI Stream Signals
+
+<img width="1072" height="834" alt="image" src="https://github.com/user-attachments/assets/701e49b9-854c-4bc5-a60f-d398fc9eadb0" />
+
+<img width="1036" height="537" alt="image" src="https://github.com/user-attachments/assets/c4c3cae0-e815-4913-b3ea-ec17cb69a776" />
+
+<img width="1093" height="457" alt="image" src="https://github.com/user-attachments/assets/24513190-a3c9-485d-9207-4cd2a9376fb0" />
+
+
+
 
 
 
