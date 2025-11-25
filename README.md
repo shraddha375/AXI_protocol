@@ -126,7 +126,9 @@ An AXI Full looks something like this:
 <img width="499" height="517" alt="Intro_to_AXI_AXI_channels" src="https://github.com/user-attachments/assets/cd506a57-c2e7-4b26-b222-6bbbc1b62f0d" />
 </p>
 
-![axi4_channel](https://github.com/user-attachments/assets/53b10242-d63c-4cab-a1cb-eac3a83af900)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/53b10242-d63c-4cab-a1cb-eac3a83af900" width=50% height=50%>
+</p>
 
 For applications where there is point to point communication (usually in one direction), some of the signals can be dropped (e.g one doesnt need address). So the structure simplifies to:
 
@@ -136,7 +138,7 @@ For applications where there is point to point communication (usually in one dir
 
 Applications include:
 
-<img width="723" height="563" alt="Untitled Diagram" src="https://github.com/user-attachments/assets/2ec616f6-9d08-4bb9-a30a-7af89ffc0dd7" />
+<img width="361" height="281" alt="Untitled Diagram" src="https://github.com/user-attachments/assets/2ec616f6-9d08-4bb9-a30a-7af89ffc0dd7" />
 
 ### AXI Stream Signals
 
