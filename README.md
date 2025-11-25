@@ -53,7 +53,9 @@ All the above channels have handshaking mechanism between master and slave to fi
 - `**Master**`: Inititate a transaction
 - `**Slave**`: Serve the request of a master
 
-<pic>
+<p align="center">
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image1.jpg" width=50% height=50%>
+</p>
 
 - `Valid` and `Ready` signals are `synchronous` with respect to the clock.
 - `Valid` is used to tell a slave that `master has a valid data` that it wishes to communicate to the slave.
@@ -64,7 +66,9 @@ All the above channels have handshaking mechanism between master and slave to fi
 - The `destination` indicates when it can `accept information` using the `Ready` signal. The ready signal goes from channel destination to channel source.
 - The mechanism is `not asynchronous handshake` and it requires the rising edge of the clock for the handshake to complete.
 
-  <pic>
+<p align="center">
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image2.jpg" width=50% height=50%>
+</p>
 
 The master can apply the new m_data in the next clock tick once ready and valid signals become high in the current clock tick.
 
@@ -73,19 +77,37 @@ Valid Ready Handshake Rules:
 - Ready could be `asserted prior` to or after valid.
 - Valid must remain high until the `completion of transfer` or until `Ready becomes high`.
 
-<pic>
-<pic>
-<pic>
+### Ready after Valid
 
-Flowchart for Master's and Slave's operation:
+<p align="center">
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image3.jpg" width=50% height=50%>
+</p>
 
-Master:
+### Ready before Valid
 
-<pic>
+<p align="center">
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image4.jpg" width=50% height=50%>
+</p>
 
-Slave:
+### Ready and Valid at the same time
 
-<pic>
+<p align="center">
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image5.jpg" width=50% height=50%>
+</p>
+
+### Flowchart for Master's and Slave's operation:
+
+#### For Master
+
+<p align="center">
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image6.jpg" width=50% height=50%>
+</p>
+
+#### For Slave
+
+<p align="center">
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image7.jpg" width=50% height=50%>
+</p>
 
 
 
