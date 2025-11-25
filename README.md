@@ -121,6 +121,10 @@ An AXI Full looks something like this:
 
 For applications where there is point to point communication (usually in one direction), some of the signals can be dropped (e.g one doesnt need address). So the structure simplifies to:
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/353ae789-2576-443b-82c3-5193d19bb353" width=50% height=50%>
+</p>
+
 ![Untitled](https://github.com/user-attachments/assets/353ae789-2576-443b-82c3-5193d19bb353)
 
 Applications include:
