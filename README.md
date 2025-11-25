@@ -33,7 +33,9 @@
 
 In a simple memory,
 
-![Untitled](https://github.com/user-attachments/assets/6bb01c2c-04f1-40f1-a270-e73b7dc37b8c)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/6bb01c2c-04f1-40f1-a270-e73b7dc37b8c" width=50% height=50%>
+</p>
 
 Problems: 
 - No signal to indiacte if write data valid/ read data valid (No way of knowing if the data is valid)
@@ -43,7 +45,9 @@ Problems:
 
 To fix these issues, we introduce AXI:
 
-![Untitled](https://github.com/user-attachments/assets/79a3e185-4640-42f8-863d-c0dbf80521ad)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/79a3e185-4640-42f8-863d-c0dbf80521ad" width=50% height=50%>
+</p>
 
 1. Write Address
 2. Write Data
