@@ -114,7 +114,6 @@ Valid Ready Handshake Rules:
 An AXI Full looks something like this:
 
 <img width="499" height="517" alt="Intro_to_AXI_AXI_channels" src="https://github.com/user-attachments/assets/cd506a57-c2e7-4b26-b222-6bbbc1b62f0d" />
-
 ![axi4_channel](https://github.com/user-attachments/assets/53b10242-d63c-4cab-a1cb-eac3a83af900)
 
 For applications where there is point to point communication (usually in one direction), some of the signals can be dropped (e.g one doesnt need address). So the structure simplifies to:
