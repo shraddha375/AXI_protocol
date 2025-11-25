@@ -4,6 +4,10 @@
 
 - AXI Stream
   
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/bd5bcfba-7f69-466d-a433-284ee3d83f95" width=50% height=50%>
+</p>
+  
   ![Untitled](https://github.com/user-attachments/assets/bd5bcfba-7f69-466d-a433-284ee3d83f95)
   
 - AXI Lite
