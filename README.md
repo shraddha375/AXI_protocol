@@ -113,21 +113,34 @@ Valid Ready Handshake Rules:
 
 ### AXI Stream Signals
 
-<img width="1072" height="834" alt="image" src="https://github.com/user-attachments/assets/701e49b9-854c-4bc5-a60f-d398fc9eadb0" />
-
-<img width="1036" height="537" alt="image" src="https://github.com/user-attachments/assets/c4c3cae0-e815-4913-b3ea-ec17cb69a776" />
-
-<img width="1093" height="457" alt="image" src="https://github.com/user-attachments/assets/24513190-a3c9-485d-9207-4cd2a9376fb0" />
-
-<img width="540" height="417" alt="image" src="https://github.com/user-attachments/assets/701e49b9-854c-4bc5-a60f-d398fc9eadb0" />
+<img width="536" height="417" alt="image" src="https://github.com/user-attachments/assets/701e49b9-854c-4bc5-a60f-d398fc9eadb0" />
 
 <img width="518" height="269" alt="image" src="https://github.com/user-attachments/assets/c4c3cae0-e815-4913-b3ea-ec17cb69a776" />
 
 <img width="547" height="229" alt="image" src="https://github.com/user-attachments/assets/24513190-a3c9-485d-9207-4cd2a9376fb0" />
 
+### TKEEP and TSTRB
 
+The two byte qualifiers supported by the AXI-Stream protocol:
+- `TKEEP`: A byte qualifier signal used to indicate whether the content of the associated byte must be transported to the destination.
+- `TSTRB`: A byte qualifier signal used to indicate whether the content of the associated byte is a data byte or a position byte.
 
+Each bit of the TKEEP and TSTRB is associated with a byte of payload:
+• TKEEP[x] is associated with TDATA[(8x+7):8x]
+• TSTRB[x] is associated with TDATA[(8x+7):8x]
 
+#### TKEEP Qualification
 
+- When TKEEP is asserted, it indicates that the associated byte must be transmitted to the destination.
+- When TKEEP is deasserted, it indicates a null byte that can be removed from the stream. A transfer is permitted with all TKEEP bits deasserted.
+
+#### TSTRB Qualification
+
+- TKEEP is asserted, TSTRB is used to indicate whether the associated byte is a data byte or a position byte.
+- TSTRB is asserted, it indicates that the associated byte contains valid information and is a data byte. When TSTRB is deasserted, it indicates that the associated byte does not contain valid information and is a position byte.
+
+Position byte is used to indicate the correct relative position of the data bytes within the stream. Position bytes are typically used when the data stream is performing a partial update of information at the destination.
+
+<img width="990" height="367" alt="image" src="https://github.com/user-attachments/assets/e292c320-2aba-4a3f-a58a-c759cbd1e23b" />
 
 
