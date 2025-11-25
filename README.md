@@ -140,6 +140,10 @@ Applications include:
 
 <img width="361" height="281" alt="Untitled Diagram" src="https://github.com/user-attachments/assets/2ec616f6-9d08-4bb9-a30a-7af89ffc0dd7" />
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/707e84af-1f9d-432f-b49c-e2dfa9b105bb" width=50% height=50%>
+</p>
+
 ### AXI Stream Signals
 
 <img width="536" height="417" alt="image" src="https://github.com/user-attachments/assets/701e49b9-854c-4bc5-a60f-d398fc9eadb0" />
