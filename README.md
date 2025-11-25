@@ -195,17 +195,23 @@ Rules to recap:
 
 ##### Scenario 1:
 
-<pic>
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/74082304-0174-4668-8a29-eef883566618" width=50% height=50%>
+</p>
 
 ##### Scenario 2:
 
-<pic>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9a130909-b883-4159-837e-24d1066f53cc" width=50% height=50%>
+</p>
+
+![Untitled](https://github.com/user-attachments/assets/9a130909-b883-4159-837e-24d1066f53cc)
 
 
 ##### Scenario 3:
 
-<pic>
+![Untitled](https://github.com/user-attachments/assets/48f3e445-aa4d-4bae-92c9-1015a998af3c)
+
 
 #### AXIS Master
 
