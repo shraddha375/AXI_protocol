@@ -205,23 +205,34 @@ Rules to recap:
   <img src="https://github.com/user-attachments/assets/9a130909-b883-4159-837e-24d1066f53cc" width=50% height=50%>
 </p>
 
-![Untitled](https://github.com/user-attachments/assets/9a130909-b883-4159-837e-24d1066f53cc)
-
 
 ##### Scenario 3:
 
-![Untitled](https://github.com/user-attachments/assets/48f3e445-aa4d-4bae-92c9-1015a998af3c)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/48f3e445-aa4d-4bae-92c9-1015a998af3c" width=50% height=50%>
+</p>
 
 #### AXIS Master
 
-<pic>
-<pic>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a90dc8f2-dcc7-4a38-b431-3c6100ac7edd" width=50% height=50%>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b6c172ff-9ce3-44d7-a677-2ea55b28843f" width=50% height=50%>
+</p>
+
 
 #### AXIS Slave
 
-<pic>
-<pic>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0dce7491-abde-4e59-af9f-de7a78a1e9b0" width=50% height=50%>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/71f7bc48-560a-4f6c-bf9b-2d199cf0fd83" width=50% height=50%>
+</p>
+
 
 ## References
 
