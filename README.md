@@ -28,7 +28,7 @@
 
 In a simple memory,
 
-<pic>
+![Untitled](https://github.com/user-attachments/assets/6bb01c2c-04f1-40f1-a270-e73b7dc37b8c)
 
 Problems: 
 - No signal to indiacte if write data valid/ read data valid (No way of knowing if the data is valid)
@@ -38,20 +38,20 @@ Problems:
 
 To fix these issues, we introduce AXI:
 
-<pic>
+![Untitled](https://github.com/user-attachments/assets/79a3e185-4640-42f8-863d-c0dbf80521ad)
 
-- Write Address
-- Write Data
-- Write Response
-- Read Address
-- Read Data + Response
+1. Write Address
+2. Write Data
+3. Write Response
+4. Read Address
+5. Read Data + Response
 
 All the above channels have handshaking mechanism between master and slave to fix the above issues.
 
 ## Valid Ready Handshake
 
-- `**Master**`: Inititate a transaction
-- `**Slave**`: Serve the request of a master
+- `Master`: Inititate a transaction
+- `Slave`: Serve the request of a master
 
 <p align="center">
  <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image1.jpg" width=50% height=50%>
@@ -109,7 +109,21 @@ Valid Ready Handshake Rules:
  <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image7.jpg" width=50% height=50%>
 </p>
 
-## AXI Stream 
+## AXI Stream
+
+An AXI Full looks something like this:
+
+<img width="998" height="1035" alt="Intro_to_AXI_AXI_channels" src="https://github.com/user-attachments/assets/cd506a57-c2e7-4b26-b222-6bbbc1b62f0d" />
+
+![axi4_channel](https://github.com/user-attachments/assets/53b10242-d63c-4cab-a1cb-eac3a83af900)
+
+For applications where there is point to point communication (usually in one direction), some of the signals can be dropped (e.g one doesnt need address). So the structure simplifies to:
+
+![Untitled](https://github.com/user-attachments/assets/353ae789-2576-443b-82c3-5193d19bb353)
+
+Applications include:
+
+<img width="723" height="563" alt="Untitled Diagram" src="https://github.com/user-attachments/assets/2ec616f6-9d08-4bb9-a30a-7af89ffc0dd7" />
 
 ### AXI Stream Signals
 
@@ -129,6 +143,9 @@ Each bit of the TKEEP and TSTRB is associated with a byte of payload:
 • TKEEP[x] is associated with TDATA[(8x+7):8x]
 • TSTRB[x] is associated with TDATA[(8x+7):8x]
 
+![Untitled](https://github.com/user-attachments/assets/06582bf0-3aae-41fd-aa46-a8af473c70f4)
+
+
 #### TKEEP Qualification
 
 - When TKEEP is asserted, it indicates that the associated byte must be transmitted to the destination.
@@ -144,3 +161,8 @@ Position byte is used to indicate the correct relative position of the data byte
 <img width="990" height="367" alt="image" src="https://github.com/user-attachments/assets/e292c320-2aba-4a3f-a58a-c759cbd1e23b" />
 
 
+## References
+
+
+- https://www.allaboutcircuits.com/technical-articles/introduction-to-the-advanced-extensible-interface-axi/
+- https://fpgaemu.readthedocs.io/en/latest/axi.html
