@@ -27,14 +27,31 @@
 | `High speed, high throughput` data transfer | `Simple register access`                  | `High performance`, supports `bursts`, multiple outstanding transctions              |
 
 In a simple memory,
+
 <pic>
+
 Problems: 
 - No signal to indiacte if write data valid/ read data valid (No way of knowing if the data is valid)
 - Write address or Read address is valid
 - Whether memory update is a success or not
 - Whether memory is free or busy
 
-To fix these issues
+To fix these issues, we introduce AXI:
+
+<pic>
+
+- Write Address
+- Write Data
+- Write Response
+- Read Address
+- Read Data + Response
+
+All the above channels have handshaking mechanism between master and slave to fix the above issues.
+
+## Valid Ready Handshake
+
+- **Master**: Inititate a transaction
+- **Slave**: Serve the request of a master
 
 
 
