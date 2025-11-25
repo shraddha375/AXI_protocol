@@ -8,16 +8,17 @@
  <img src="https://github.com/user-attachments/assets/bd5bcfba-7f69-466d-a433-284ee3d83f95" width=50% height=50%>
 </p>
   
-  ![Untitled](https://github.com/user-attachments/assets/bd5bcfba-7f69-466d-a433-284ee3d83f95)
-  
 - AXI Lite
-  
-  ![Untitled](https://github.com/user-attachments/assets/8c9cb3e6-6f68-4f52-81ee-47bcbd8ff136)
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/8c9cb3e6-6f68-4f52-81ee-47bcbd8ff136" width=50% height=50%>
+</p>
   
 - AXI Full
-  
-  ![Untitled-1](https://github.com/user-attachments/assets/7fb2c1e9-7996-4228-a5aa-0e711113293b)
-  
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/7fb2c1e9-7996-4228-a5aa-0e711113293b" width=50% height=50%>
+</p>  
 
 ![Untitled](https://github.com/user-attachments/assets/939f9c27-e744-486b-b0e1-a997761d36d0)
 
