@@ -125,8 +125,6 @@ For applications where there is point to point communication (usually in one dir
 <img src="https://github.com/user-attachments/assets/353ae789-2576-443b-82c3-5193d19bb353" width=50% height=50%>
 </p>
 
-![Untitled](https://github.com/user-attachments/assets/353ae789-2576-443b-82c3-5193d19bb353)
-
 Applications include:
 
 <img width="723" height="563" alt="Untitled Diagram" src="https://github.com/user-attachments/assets/2ec616f6-9d08-4bb9-a30a-7af89ffc0dd7" />
