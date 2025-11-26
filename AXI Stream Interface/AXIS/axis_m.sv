@@ -73,12 +73,11 @@ module axis_m(
                 
         endcase    
     end
-    // Data is made available only when the valid signal is high        
-    assign m_axis_tdata   = (m_axis_tvalid) ? din*count : 0;   
-    // Last signal is made high when state is in tx and count is 3, indicating the 4th byte
-    assign m_axis_tlast   = (count == 3 && state == tx) ? 1'b1 : 0;
     // As soon as state goes to the transmission mode, valid is made high
     assign m_axis_tvalid  = (state == tx ) ? 1'b1 : 1'b0;
-      
+    // Last signal is made high when state is in tx and count is 3, indicating the 4th byte
+    assign m_axis_tlast   = (count == 3 && state == tx) ? 1'b1 : 0;
+    // Data is made available only when the valid signal is high        
+    assign m_axis_tdata   = (m_axis_tvalid) ? din*count : 0;   
       
 endmodule
