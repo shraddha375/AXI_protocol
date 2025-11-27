@@ -305,6 +305,11 @@ This components accepts several requests from the master and stores in the FIFO.
 
 <pic>
 
+## AXI Lite
+
+<img width="840" height="591" alt="AXI_read_transaction svg" src="https://github.com/user-attachments/assets/8b90c86a-d6e6-46b4-b077-0fedf871bae6" />
+
+
 ## References
 
 - Udemy
