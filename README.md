@@ -237,6 +237,11 @@ Rules to recap:
 <img width="1909" height="316" alt="image" src="https://github.com/user-attachments/assets/f18d6073-6cbb-40de-9aac-2e82ff3cf63d" />
 
 
+#### AXIS Module
+
+<img width="1900" height="607" alt="image" src="https://github.com/user-attachments/assets/915c1107-b026-4bde-956b-1b9694d5dfe4" />
+
+
 ### AXIS Arbiter
 
 <pic>
