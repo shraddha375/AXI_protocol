@@ -256,6 +256,31 @@ Rules to recap:
 
 ### AXIS Arbiter
 
+Round Robin Arbiter
+- Priority is set for one of the requests
+- Equally serve all the requests (Number of requests considered = 2)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b7aad7c8-da8a-4817-9167-32b286a87cbf" width=50% height=50%>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/690516b0-419a-4202-a151-fa69965f6955" width=50% height=50%>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9313570c-0194-4434-943e-ead306e4116" width=50% height=50%>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fd9d1c75-c462-4feb-842e-4c174bf39810" width=50% height=50%>
+</p>
+
+
+#### Implementation of AXIS Arbiter
+
+Arbiter is needed when you have more than one masters/slaves.
+
 <pic>
 
 <img width="1897" height="586" alt="image" src="https://github.com/user-attachments/assets/dd8c0053-c4a4-4b0f-a5a3-253573fcf9b9" />
