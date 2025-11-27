@@ -281,7 +281,13 @@ Round Robin Arbiter
 
 Arbiter is needed when you have more than one masters/slaves.
 
-<pic>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/88dcdb46-c6a4-4ffc-b6f3-ed88f802971b" width=50% height=50%>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/af3c08e0-79bc-4f83-9149-25f30f920843" width=50% height=50%>
+</p>
 
 <img width="1897" height="586" alt="image" src="https://github.com/user-attachments/assets/dd8c0053-c4a4-4b0f-a5a3-253573fcf9b9" />
 
