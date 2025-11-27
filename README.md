@@ -237,6 +237,13 @@ Rules to recap:
 
 <pic>
 
+<img width="1897" height="586" alt="image" src="https://github.com/user-attachments/assets/dd8c0053-c4a4-4b0f-a5a3-253573fcf9b9" />
+
+### AXIS FIFO
+
+<pic>
+
+  
 ## References
 
 - Udemy
