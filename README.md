@@ -222,6 +222,7 @@ Rules to recap:
   <img src="https://github.com/user-attachments/assets/b6c172ff-9ce3-44d7-a677-2ea55b28843f" width=50% height=50%>
 </p>
 
+<img width="1893" height="400" alt="image" src="https://github.com/user-attachments/assets/0061a187-527f-4b53-8e4b-3ca4bddc243a" />
 
 #### AXIS Slave
 
