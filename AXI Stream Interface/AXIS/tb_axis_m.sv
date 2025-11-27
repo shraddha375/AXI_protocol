@@ -37,7 +37,13 @@ module tb_axis_m;
             din = $random();
             @(negedge m_axis_tlast);
             m_axis_tready = 1'b0;
-        end        
+        end 
+        $finish;
+    end
+    
+    initial begin
+        $dumpfile("dump.vcd"); 
+        $dumpvars;
     end
        
 endmodule
