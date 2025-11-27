@@ -346,6 +346,25 @@ To distinguish between reponses from different transactions, we can use id for d
 
 ![Untitled](https://github.com/user-attachments/assets/c281652c-d8d3-41b6-ae03-d16c4b7b286e)
 
+### Write Data Channel
+
+![Untitled](https://github.com/user-attachments/assets/09677e92-c4fa-496b-bc41-3c8803a48409)
+
+![Untitled](https://github.com/user-attachments/assets/1dd9720b-2ec3-4700-813c-2cb8b662ae9b)
+
+-`wstrb`: Indicates which byte to be ignored by the slave
+
+![Untitled](https://github.com/user-attachments/assets/60805882-5d58-4efa-870b-8d8f36fdffda)
+
+## Write Response Channel
+
+![Untitled-1](https://github.com/user-attachments/assets/262b2ee4-629e-4987-8b0e-eebf78add8b5)
+
+![Untitled](https://github.com/user-attachments/assets/3a35e49b-55bc-46bb-8da0-bb0a9d78ebb9)
+
+- `bid` = `awid` but `bid` may or may not be equal to `wid`
+- `bresp`: Indicates successful read or write operation
+
 
 ## References
 
