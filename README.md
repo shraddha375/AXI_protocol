@@ -222,6 +222,10 @@ Rules to recap:
   <img src="https://github.com/user-attachments/assets/b6c172ff-9ce3-44d7-a677-2ea55b28843f" width=50% height=50%>
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b27da4b0-348f-4e79-9603-38628e1b72aa" width=50% height=50%>
+</p>
+
 <img width="1893" height="400" alt="image" src="https://github.com/user-attachments/assets/0061a187-527f-4b53-8e4b-3ca4bddc243a" />
 
 #### AXIS Slave
@@ -232,6 +236,10 @@ Rules to recap:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/71f7bc48-560a-4f6c-bf9b-2d199cf0fd83" width=50% height=50%>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/75100ff6-29d6-4f2c-9dd8-4bb1c534f450" width=50% height=50%>
 </p>
 
 <img width="1909" height="316" alt="image" src="https://github.com/user-attachments/assets/f18d6073-6cbb-40de-9aac-2e82ff3cf63d" />
