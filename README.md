@@ -269,7 +269,7 @@ Round Robin Arbiter
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9313570c-0194-4434-943e-ead306e4116" width=50% height=50%>
+  <img src="https://github.com/user-attachments/assets/a80d0ec4-571f-449f-911e-58d69f1b8626" width=50% height=50%>
 </p>
 
 <p align="center">
