@@ -234,6 +234,9 @@ Rules to recap:
   <img src="https://github.com/user-attachments/assets/71f7bc48-560a-4f6c-bf9b-2d199cf0fd83" width=50% height=50%>
 </p>
 
+<img width="1909" height="316" alt="image" src="https://github.com/user-attachments/assets/f18d6073-6cbb-40de-9aac-2e82ff3cf63d" />
+
+
 ### AXIS Arbiter
 
 <pic>
