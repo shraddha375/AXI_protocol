@@ -332,6 +332,11 @@ A `beat` is an individual data transfer within the AXI burst. Here we assume bea
 - `awlen`: Number of beats in a transfer; burst lenght = awlen + 1
 - `awid`: Unique ID of a transaction
 
+<img width="1000" height="726" alt="image" src="https://github.com/user-attachments/assets/8edf451c-ca98-47b4-939e-c4e7dadfa711" />
+
+<img width="948" height="423" alt="image" src="https://github.com/user-attachments/assets/2b4a47c3-bb70-4c42-8ba3-1038f9951bf9" />
+
+
 ### Channel ID
 
 ![Untitled](https://github.com/user-attachments/assets/b58a146d-95f0-4352-bb66-4b080d2050ac)
@@ -356,6 +361,9 @@ To distinguish between reponses from different transactions, we can use id for d
 
 ![Untitled](https://github.com/user-attachments/assets/60805882-5d58-4efa-870b-8d8f36fdffda)
 
+<img width="994" height="562" alt="image" src="https://github.com/user-attachments/assets/9e634d64-4e23-4ecb-b6b6-0eb86651e022" />
+
+
 ## Write Response Channel
 
 ![Untitled-1](https://github.com/user-attachments/assets/262b2ee4-629e-4987-8b0e-eebf78add8b5)
@@ -372,6 +380,19 @@ Types of Responses:
 ![Untitled-1](https://github.com/user-attachments/assets/1e0e4200-b6bd-4f49-9e13-c4291d3dc1e9)
 
 - `awlock`: to get exclusive access to certain variable when multiple masters are trying to access a shared variable. `awlock` = 2'b10 means only one master can access; `awlock` = 2'b11 locks the shared resources for multiple transactions
+
+<img width="1008" height="451" alt="image" src="https://github.com/user-attachments/assets/dcc00c51-5b6f-470d-a2ee-890564ae5221" />
+
+## Read Address Channel
+
+<img width="984" height="751" alt="image" src="https://github.com/user-attachments/assets/fac77142-8b36-46dc-a1c6-eb70dad97e58" />
+
+<img width="985" height="321" alt="image" src="https://github.com/user-attachments/assets/7eb8c4fa-160c-4193-93ee-0d65aa3e546a" />
+
+## Read Data Channel
+
+<img width="1027" height="562" alt="image" src="https://github.com/user-attachments/assets/f93b50af-05d0-486b-8f09-77a2eb9f43d3" />
+
 
 ## References
 
