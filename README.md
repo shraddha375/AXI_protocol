@@ -365,6 +365,13 @@ To distinguish between reponses from different transactions, we can use id for d
 - `bid` = `awid` but `bid` may or may not be equal to `wid`
 - `bresp`: Indicates successful read or write operation
 
+Types of Responses:
+
+![Untitled-1](https://github.com/user-attachments/assets/18941e49-77d8-4224-a2d5-7861b3e1ecfe)
+
+![Untitled-1](https://github.com/user-attachments/assets/1e0e4200-b6bd-4f49-9e13-c4291d3dc1e9)
+
+- `awlock`: to get exclusive access to certain variable when multiple masters are trying to access a shared variable. `awlock` = 2'b10 means only one master can access; `awlock` = 2'b11 locks the shared resources for multiple transactions
 
 ## References
 
