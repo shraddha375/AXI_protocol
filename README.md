@@ -247,6 +247,10 @@ Rules to recap:
 
 #### AXIS Module
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bfca3424-5cad-4080-92d5-ea8b841e23cc" width=50% height=50%>
+</p>
+
 <img width="1900" height="607" alt="image" src="https://github.com/user-attachments/assets/915c1107-b026-4bde-956b-1b9694d5dfe4" />
 
 
