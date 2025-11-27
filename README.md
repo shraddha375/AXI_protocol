@@ -315,7 +315,36 @@ A `beat` is an individual data transfer within the AXI burst. Here we assume bea
 
 <img width="840" height="591" alt="AXI_read_transaction svg" src="https://github.com/user-attachments/assets/8b90c86a-d6e6-46b4-b077-0fedf871bae6" />
 
+### Write Address Channel
+
 ![Untitled](https://github.com/user-attachments/assets/7420a742-113e-4b28-820e-cfa7e4aabea8)
+
+- `awready` and `awvalid` are for handshake mechanism
+- `awaddr`: Indicates starting address of the transfer
+
+![Untitled](https://github.com/user-attachments/assets/e63f8c28-1ef4-4834-a4dc-d53c7cbd00a5)
+
+- `awsize`: Size of each beat
+
+![Untitled](https://github.com/user-attachments/assets/d393a7f0-ff89-454a-8849-3552c0ceae13)
+
+- `awburst`: Indicates type of burst (INCR, FIXED, WRAP)
+- `awlen`: Number of beats in a transfer; burst lenght = awlen + 1
+- `awid`: Unique ID of a transaction
+
+### Channel ID
+
+![Untitled](https://github.com/user-attachments/assets/b58a146d-95f0-4352-bb66-4b080d2050ac)
+
+Master will wait till it receives the response of the current transaction before applying the address of the second transaction.
+
+![Untitled](https://github.com/user-attachments/assets/d7f07591-0ffb-4fd3-961c-1800ff163a05)
+
+Master will not wait before applying for a new transaction.
+
+To distinguish between reponses from different transactions, we can use id for different transactions.
+
+![Untitled](https://github.com/user-attachments/assets/c281652c-d8d3-41b6-ae03-d16c4b7b286e)
 
 
 ## References
