@@ -1,5 +1,24 @@
 # AXI Interface
 
+## What is AMBA Protocols
+
+The Arm Advanced Microcontroller Bus Architecture, is an open-standard, on-chip interconnect specification that define how functional blocks in an SoC design communicate with each other.
+The diagram below illustrates a typical SoC design, where multiple functional blocks rely on AMBA protocols such as AXI4 and AXI3 to communicate with one another:
+
+<img width="748" height="643" alt="image" src="https://github.com/user-attachments/assets/a7c7b462-a582-46c0-8542-cb3e2055d244" />
+
+AMBA makes it easier to design systems that include several processors along with many controllers and peripherals. 
+
+## AXI Protocol
+AXI is an interface specification that defines the interface of IP blocks.
+All AXI connections are between master interfaces and slave interfaces.
+
+The diagram below presents a simplified view of an SoC system, consisting of master components, slave components, and the interconnect that ties them together:
+
+<img width="676" height="349" alt="image" src="https://github.com/user-attachments/assets/50890792-406c-455f-a96f-bb1bbeccca88" />
+
+Where multiple masters and slaves are involved, an interconnect fabric is required.
+
 ## Types of AXI Interface
 
 - AXI Stream
