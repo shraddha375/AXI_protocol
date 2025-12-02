@@ -43,7 +43,7 @@ module m_axi (
             // If wready is high, then make wvalid low in the next cycle
             if (m_axi_wready) 
                 m_axi_wvalid <= 0;
-            // If bavlid is high, then make bready low in the next cycle
+            // If bvalid is high, then make bready low in the next cycle
             if (m_axi_bvalid) 
                 m_axi_bready <= 0;
         end 
