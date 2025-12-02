@@ -37,13 +37,13 @@ module m_axi (
         end 
         // During an entire transaction, bready is high all the time
         else if (m_axi_bready) begin
-            // If awready is high, then make awvalid low in the next cycle
+            // If awready is high, then make awvalid low 
             if (m_axi_awready) 
                 m_axi_awvalid <= 0;
-            // If wready is high, then make wvalid low in the next cycle
+            // If wready is high, then make wvalid low 
             if (m_axi_wready) 
                 m_axi_wvalid <= 0;
-            // If bvalid is high, then make bready low in the next cycle
+            // If bvalid is high, then make bready low 
             if (m_axi_bvalid) 
                 m_axi_bready <= 0;
         end 
