@@ -23,7 +23,7 @@ module m_axi (
     input  wire [ 1:0] m_axi_bresp
     );
  
-    ///Write Operation
+    ///Write Operation - Handles awvalid, wvalid and bready
 
     initial m_axi_awvalid = 0;
     initial m_axi_wvalid = 0;
@@ -35,15 +35,19 @@ module m_axi (
             m_axi_wvalid  <= 0;
             m_axi_bready  <= 0;
         end 
+        // During an entire transaction, bready is high all the time
         else if (m_axi_bready) begin
+            // If awready is high, then make awvalid low in the next cycle
             if (m_axi_awready) 
                 m_axi_awvalid <= 0;
+            // If wready is high, then make wvalid low in the next cycle
             if (m_axi_wready) 
                 m_axi_wvalid <= 0;
+            // If bavlid is high, then make bready low in the next cycle
             if (m_axi_bvalid) 
                 m_axi_bready <= 0;
- 
         end 
+        // If write is enabled
         else if (i_wr) begin
             m_axi_awvalid <= 1;
             m_axi_wvalid  <= 1;
@@ -52,15 +56,17 @@ module m_axi (
  
     end
 
-    ////// Write Data
+    ////// Write Data - Handles awaddr, wdata and wstrb
  
     initial m_axi_awaddr = 0;
  
     always @(posedge i_clk) begin
         if (i_resetn == 1'b0) 
             m_axi_awaddr <= 0;
+        // If write is enabled then provide the address
         else if (i_wr) 
             m_axi_awaddr <= i_addrin;
+        // Next cycle awaddr should go to zero as awvalid and awready will go to zero anyways
         else if (m_axi_awvalid && m_axi_awready) 
             m_axi_awaddr <= 0;
     end
@@ -73,10 +79,12 @@ module m_axi (
             m_axi_wdata <= 0;
             m_axi_wstrb <= 0;
         end 
+        // If write is enabled then provide the data and strobe
         else if (i_wr) begin
             m_axi_wdata <= i_din;
             m_axi_wstrb <= i_strb;
         end 
+        // Next cycle wdata and wstrb should go to zero as wvalid and wready will go to zero anyways
         else if (m_axi_wvalid && m_axi_wready) begin
             m_axi_wdata <= 0;
             m_axi_wstrb <= 0;
