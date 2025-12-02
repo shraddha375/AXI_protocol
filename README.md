@@ -439,16 +439,16 @@ Look at the waveform, then predict the behavior of the output port in terms of i
 
 ![Untitled](https://github.com/user-attachments/assets/c07c75d4-704a-47ee-b77e-400e46343435)
 
-  initial m_axi_awaddr = 0;
+    initial m_axi_awaddr = 0;
 
-  always @(posedge m_axi_aclk) begin
-      if (m_axi_aresetn == 1'b0)
-          m_axi_awaddr <= 0;
-      else if (i_wr)
-          m_axi_awaddr <= i_addrin;
-      else if (m_axi_awvalid && m_axi_awready)
-          m_axi_awaddr <= 0;
-  end
+    always @(posedge m_axi_aclk) begin
+        if (m_axi_aresetn == 1'b0)
+            m_axi_awaddr <= 0;
+        else if (i_wr)
+            m_axi_awaddr <= i_addrin;
+        else if (m_axi_awvalid && m_axi_awready)
+            m_axi_awaddr <= 0;
+    end
 
 ### FSM based Simulation
 
