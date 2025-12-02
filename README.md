@@ -454,7 +454,29 @@ Look at the waveform, then predict the behavior of the output port in terms of i
 
 Design is based on FSM.
 
-<code>
+    detect_op: begin
+        if (wr)
+            state <= send_waddr;
+        else
+            state <= send_raddr;
+    end
+
+    send_waddr: begin
+        din <= wr_din * 5;
+        m_axi_awaddr <= wr_addr;
+        m_axi_awvalid <= 1;
+        m_axi_wvalid <= 1;
+        m_axi_awlen <= wr_burst_len;
+        m_axi_awsize <= 3'b010;
+        m_axi_awburst <= wr_burst_type;
+        m_axi_wdata <= wr_din;
+        m_axi_wstrb <= wr_strbin << 1;
+        m_axi_wlast <= 0;
+        burst_count <= wr_burst_len;
+        m_axi_bready <= 1;
+
+        if (m_axi_awready == 1) begin
+            state <= send_value;
 
 ### AXI Lite Module
 
