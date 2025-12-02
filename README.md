@@ -383,7 +383,7 @@ To distinguish between reponses from different transactions, we can use id for d
 <img width="994" height="562" alt="image" src="https://github.com/user-attachments/assets/9e634d64-4e23-4ecb-b6b6-0eb86651e022" />
 
 
-## Write Response Channel
+### Write Response Channel
 
 ![Untitled-1](https://github.com/user-attachments/assets/262b2ee4-629e-4987-8b0e-eebf78add8b5)
 
@@ -402,15 +402,65 @@ Types of Responses:
 
 <img width="1008" height="451" alt="image" src="https://github.com/user-attachments/assets/dcc00c51-5b6f-470d-a2ee-890564ae5221" />
 
-## Read Address Channel
+### Read Address Channel
 
 <img width="984" height="751" alt="image" src="https://github.com/user-attachments/assets/fac77142-8b36-46dc-a1c6-eb70dad97e58" />
 
 <img width="985" height="321" alt="image" src="https://github.com/user-attachments/assets/7eb8c4fa-160c-4193-93ee-0d65aa3e546a" />
 
-## Read Data Channel
+### Read Data Channel
 
 <img width="1027" height="562" alt="image" src="https://github.com/user-attachments/assets/f93b50af-05d0-486b-8f09-77a2eb9f43d3" />
+
+### Different AXI Configurations
+
+![Untitled](https://github.com/user-attachments/assets/c6562872-58a4-4e49-865b-6dde562f6b81)
+
+- Single beat without pipeline - E.g. GPIO/UARt
+- Single beat with pipeline - E.g. DSP/ Network S/W
+- Burst without pipeline - E.g. Image Sensors/ Display buffers
+- Burst with pipeline - E.g. GPU/ Data Centers/ Servers/ Smartphones/ Gaming Consoles
+
+#### Single beat without pipeline
+
+![Untitled](https://github.com/user-attachments/assets/d827917e-371b-4f22-97a3-155eca3b2922)
+
+Wait for response of the current transaction before applying the address of the next transaction.
+
+#### Single beat with pipeline
+
+![Untitled](https://github.com/user-attachments/assets/e9f81c9f-0d3c-4b33-9b4c-88601f64fb82)
+
+Burst - Multiple beats
+
+### Waveform based Simulation
+
+Look at the waveform, then predict the behavior of the output port in terms of input ports.
+
+![Untitled](https://github.com/user-attachments/assets/c07c75d4-704a-47ee-b77e-400e46343435)
+
+  initial m_axi_awaddr = 0;
+
+  always @(posedge m_axi_aclk) begin
+      if (m_axi_aresetn == 1'b0)
+          m_axi_awaddr <= 0;
+      else if (i_wr)
+          m_axi_awaddr <= i_addrin;
+      else if (m_axi_awvalid && m_axi_awready)
+          m_axi_awaddr <= 0;
+  end
+
+### FSM based Simulation
+
+Design is based on FSM.
+
+<code>
+
+### AXI Lite Module
+
+![Untitled](https://github.com/user-attachments/assets/5664b40a-ee77-4629-875f-021f3d6b1cc4)
+
+The implementation is about a single beat transaction without pipelining.
 
 
 ## References
