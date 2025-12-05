@@ -322,7 +322,7 @@ This components accepts several requests from the master and stores in the FIFO.
  <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image8.jpg" width=50% height=50%>
 </p>
 
-<pic>
+<img width="1900" height="523" alt="image" src="https://github.com/user-attachments/assets/30b0b6d1-8c17-4167-840d-d0bd4df2330e" />
 
 ## AXI Lite
 
