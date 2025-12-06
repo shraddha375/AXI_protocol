@@ -340,16 +340,22 @@ A `beat` is an individual data transfer within the AXI burst. Here we assume bea
 
 ### Write Address Channel
 
-![Untitled](https://github.com/user-attachments/assets/7420a742-113e-4b28-820e-cfa7e4aabea8)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/7420a742-113e-4b28-820e-cfa7e4aabea8" width=50% height=50%>
+</p>
 
 - `awready` and `awvalid` are for handshake mechanism
 - `awaddr`: Indicates starting address of the transfer
 
-![Untitled](https://github.com/user-attachments/assets/e63f8c28-1ef4-4834-a4dc-d53c7cbd00a5)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/e63f8c28-1ef4-4834-a4dc-d53c7cbd00a5" width=50% height=50%>
+</p>
 
 - `awsize`: Size of each beat
 
-![Untitled](https://github.com/user-attachments/assets/d393a7f0-ff89-454a-8849-3552c0ceae13)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/d393a7f0-ff89-454a-8849-3552c0ceae13" width=50% height=50%>
+</p>
 
 - `awburst`: Indicates type of burst (INCR, FIXED, WRAP)
 - `awlen`: Number of beats in a transfer; burst lenght = awlen + 1
