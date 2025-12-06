@@ -447,7 +447,10 @@ Burst - Multiple beats
 
 Look at the waveform, then predict the behavior of the output port in terms of input ports.
 
-![Untitled](https://github.com/user-attachments/assets/c07c75d4-704a-47ee-b77e-400e46343435)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c07c75d4-704a-47ee-b77e-400e46343435" width=50% height=50%>
+</p>
+
 
     initial m_axi_awaddr = 0;
 
@@ -492,10 +495,17 @@ Design is based on FSM.
 
 #### Write Section
 
-![Untitled](https://github.com/user-attachments/assets/5664b40a-ee77-4629-875f-021f3d6b1cc4)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c07c75d4-704a-47ee-b77e-400e46343435" width=50% height=50%>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5664b40a-ee77-4629-875f-021f3d6b1cc4" width=50% height=50%>
+</p>
+
 
 #### Read Section
-
 
 
 The implementation is about a single beat transaction without pipelining.
