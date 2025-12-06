@@ -1,13 +1,13 @@
 module p_s_axi (
-    input wire        s_axi_aclk, 
-    input wire        s_axi_aresetn,
+    input wire         s_axi_aclk, 
+    input wire         s_axi_aresetn,
     // Read Address Channel
-    input wire        s_axi_arvalid,
-    output reg        s_axi_arready,
-    input wire [31:0] s_axi_araddr,
+    input wire         s_axi_arvalid,
+    output reg         s_axi_arready,
+    input wire [31:0]  s_axi_araddr,
     // Read Data Channel
-    output reg        s_axi_rvalid,
-    input wire        s_axi_rready,
+    output reg         s_axi_rvalid,
+    input wire         s_axi_rready,
     output wire [31:0] s_axi_rdata,
     output wire [1:0]  s_axi_rresp
     );
