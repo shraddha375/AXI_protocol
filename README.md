@@ -326,9 +326,13 @@ This components accepts several requests from the master and stores in the FIFO.
 
 ## AXI Lite
 
-![Untitled](https://github.com/user-attachments/assets/76706a10-b12e-43e2-bc71-7031890bc3b8)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/76706a10-b12e-43e2-bc71-7031890bc3b8" width=50% height=50%>
+</p>
 
-![Untitled](https://github.com/user-attachments/assets/eb1fc21e-6eaf-4fae-ba28-e4c09c4975c4)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/eb1fc21e-6eaf-4fae-ba28-e4c09c4975c4" width=50% height=50%>
+</p>
 
 A `beat` is an individual data transfer within the AXI burst. Here we assume beat size of 8 bits/byte.
 
