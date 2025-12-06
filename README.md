@@ -480,7 +480,13 @@ Design is based on FSM.
 
 ### AXI Lite Module
 
+#### Write Section
+
 ![Untitled](https://github.com/user-attachments/assets/5664b40a-ee77-4629-875f-021f3d6b1cc4)
+
+#### Read Section
+
+
 
 The implementation is about a single beat transaction without pipelining.
 
