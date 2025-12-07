@@ -507,6 +507,8 @@ Design is based on FSM.
 
 #### Read Section
 
+<img width="1909" height="793" alt="image" src="https://github.com/user-attachments/assets/08ea83bf-91f8-4553-a4dd-96b023695a0d" />
+
 
 The implementation is about a single beat transaction without pipelining.
 
