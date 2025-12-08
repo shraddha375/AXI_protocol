@@ -493,6 +493,12 @@ Design is based on FSM.
 
 ### AXI Lite Module
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c133b6a9-ba2e-42df-9169-b8d54b72204a" width=50% height=50%>
+</p>
+
+The AXI Lite module with its 5 channels. The write and read operation are performed separately to understand them better.
+
 #### Write Operation
 
 
@@ -513,6 +519,14 @@ Old:
 <img width="1909" height="937" alt="image" src="https://github.com/user-attachments/assets/ee168acc-4579-4959-bf03-b9dcf61667f4" />
 
 #### Read Operation
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fd3a1271-1438-43f6-a1c3-74ee52e26450" width=50% height=50%>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6d20aaae-91f8-475e-adbb-50c74cdf6d89" width=50% height=50%>
+</p>
 
 <img width="1903" height="853" alt="image" src="https://github.com/user-attachments/assets/5a46eadf-1cc3-4f2f-b361-57ec219f997b" />
 
