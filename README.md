@@ -371,17 +371,24 @@ A `beat` is an individual data transfer within the AXI burst. Here we assume bea
 
 ### Channel ID
 
-![Untitled](https://github.com/user-attachments/assets/b58a146d-95f0-4352-bb66-4b080d2050ac)
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/b58a146d-95f0-4352-bb66-4b080d2050ac" width=50% height=50%>
+</p>
 
 Master will wait till it receives the response of the current transaction before applying the address of the second transaction.
 
-![Untitled](https://github.com/user-attachments/assets/d7f07591-0ffb-4fd3-961c-1800ff163a05)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/d7f07591-0ffb-4fd3-961c-1800ff163a05" width=50% height=50%>
+</p>
 
 Master will not wait before applying for a new transaction.
 
 To distinguish between reponses from different transactions, we can use id for different transactions.
 
-![Untitled](https://github.com/user-attachments/assets/c281652c-d8d3-41b6-ae03-d16c4b7b286e)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/c281652c-d8d3-41b6-ae03-d16c4b7b286e" width=50% height=50%>
+</p>
 
 ### Write Data Channel
 
