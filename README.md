@@ -336,7 +336,10 @@ This components accepts several requests from the master and stores in the FIFO.
 
 A `beat` is an individual data transfer within the AXI burst. Here we assume beat size of 8 bits/byte.
 
-<img width="840" height="591" alt="AXI_read_transaction svg" src="https://github.com/user-attachments/assets/8b90c86a-d6e6-46b4-b077-0fedf871bae6" />
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/8b90c86a-d6e6-46b4-b077-0fedf871bae6" width=50% height=50%>
+</p> 
+
 
 ### Write Address Channel
 
