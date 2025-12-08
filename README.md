@@ -411,9 +411,13 @@ To distinguish between reponses from different transactions, we can use id for d
 
 ### Write Response Channel
 
-![Untitled-1](https://github.com/user-attachments/assets/262b2ee4-629e-4987-8b0e-eebf78add8b5)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/262b2ee4-629e-4987-8b0e-eebf78add8b5" width=50% height=50%>
+</p>
 
-![Untitled](https://github.com/user-attachments/assets/3a35e49b-55bc-46bb-8da0-bb0a9d78ebb9)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/3a35e49b-55bc-46bb-8da0-bb0a9d78ebb9" width=50% height=50%>
+</p>
 
 - `bid` = `awid` but `bid` may or may not be equal to `wid`
 - `bresp`: Indicates successful read or write operation
@@ -440,7 +444,9 @@ Types of Responses:
 
 ### Different AXI Configurations
 
-![Untitled](https://github.com/user-attachments/assets/c6562872-58a4-4e49-865b-6dde562f6b81)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/c6562872-58a4-4e49-865b-6dde562f6b81" width=50% height=50%>
+</p>
 
 - Single beat without pipeline - E.g. GPIO/UARt
 - Single beat with pipeline - E.g. DSP/ Network S/W
@@ -455,7 +461,9 @@ Wait for response of the current transaction before applying the address of the 
 
 #### Single beat with pipeline
 
-![Untitled](https://github.com/user-attachments/assets/e9f81c9f-0d3c-4b33-9b4c-88601f64fb82)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/e9f81c9f-0d3c-4b33-9b4c-88601f64fb82" width=50% height=50%>
+</p>
 
 Burst - Multiple beats
 
