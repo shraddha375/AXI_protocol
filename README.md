@@ -504,6 +504,13 @@ Design is based on FSM.
   <img src="https://github.com/user-attachments/assets/5664b40a-ee77-4629-875f-021f3d6b1cc4" width=50% height=50%>
 </p>
 
+New:
+
+<img width="1912" height="937" alt="image" src="https://github.com/user-attachments/assets/71b485c5-a071-492e-aed2-c402f58c3735" />
+
+Old:
+
+<img width="1909" height="937" alt="image" src="https://github.com/user-attachments/assets/ee168acc-4579-4959-bf03-b9dcf61667f4" />
 
 #### Read Operation
 
