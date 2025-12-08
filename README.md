@@ -392,13 +392,19 @@ To distinguish between reponses from different transactions, we can use id for d
 
 ### Write Data Channel
 
-![Untitled](https://github.com/user-attachments/assets/09677e92-c4fa-496b-bc41-3c8803a48409)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/09677e92-c4fa-496b-bc41-3c8803a48409" width=50% height=50%>
+</p>
 
-![Untitled](https://github.com/user-attachments/assets/1dd9720b-2ec3-4700-813c-2cb8b662ae9b)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/1dd9720b-2ec3-4700-813c-2cb8b662ae9b" width=50% height=50%>
+</p>
 
 -`wstrb`: Indicates which byte to be ignored by the slave
 
-![Untitled](https://github.com/user-attachments/assets/60805882-5d58-4efa-870b-8d8f36fdffda)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/60805882-5d58-4efa-870b-8d8f36fdffda" width=50% height=50%>
+</p>
 
 <img width="994" height="562" alt="image" src="https://github.com/user-attachments/assets/9e634d64-4e23-4ecb-b6b6-0eb86651e022" />
 
