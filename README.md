@@ -521,7 +521,7 @@ Old:
 #### Read Operation
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fd3a1271-1438-43f6-a1c3-74ee52e26450" width=50% height=50%>
+  <img src="https://github.com/user-attachments/assets/13bd0fd0-57ae-4e8c-9441-572cd51d46d5" width=50% height=50%>
 </p>
 
 <p align="center">
