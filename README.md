@@ -465,6 +465,10 @@ Look at the waveform, then predict the behavior of the output port in terms of i
 
 ### FSM based Simulation
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/baf11458-e669-4783-9e02-130af40f5ded" width=50% height=50%>
+</p>
+
 Design is based on FSM.
 
     detect_op: begin
@@ -501,6 +505,7 @@ The AXI Lite module with its 5 channels. The write and read operation are perfor
 
 #### Write Operation
 
+##### Waveform based simulation:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c07c75d4-704a-47ee-b77e-400e46343435" width=50% height=50%>
@@ -518,7 +523,15 @@ Old:
 
 <img width="1909" height="937" alt="image" src="https://github.com/user-attachments/assets/ee168acc-4579-4959-bf03-b9dcf61667f4" />
 
+##### FSM based simulation:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/063b315e-6341-46cd-a130-d6dab64a0a52" width=50% height=50%>
+</p>
+
 #### Read Operation
+
+##### Waveform based simulation:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/13bd0fd0-57ae-4e8c-9441-572cd51d46d5" width=50% height=50%>
@@ -529,6 +542,14 @@ Old:
 </p>
 
 <img width="1903" height="853" alt="image" src="https://github.com/user-attachments/assets/5a46eadf-1cc3-4f2f-b361-57ec219f997b" />
+
+##### FSM based simulation:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6f947cc4-eee7-4ca3-86c1-9313fc921398" width=50% height=50%>
+</p>
+
+
 
 The implementation is about a single beat transaction without pipelining.
 
