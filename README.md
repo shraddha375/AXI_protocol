@@ -493,7 +493,7 @@ Design is based on FSM.
 
 ### AXI Lite Module
 
-#### Write Section
+#### Write Operation
 
 
 <p align="center">
@@ -505,10 +505,9 @@ Design is based on FSM.
 </p>
 
 
-#### Read Section
+#### Read Operation
 
-<img width="1909" height="793" alt="image" src="https://github.com/user-attachments/assets/08ea83bf-91f8-4553-a4dd-96b023695a0d" />
-
+<img width="1903" height="853" alt="image" src="https://github.com/user-attachments/assets/5a46eadf-1cc3-4f2f-b361-57ec219f997b" />
 
 The implementation is about a single beat transaction without pipelining.
 
