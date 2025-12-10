@@ -128,13 +128,13 @@ Valid Ready Handshake Rules:
 #### For Master
 
 <p align="center">
- <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image6.jpg" width=50% height=50%>
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image6.jpg" width=25% height=25%>
 </p>
 
 #### For Slave
 
 <p align="center">
- <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image7.jpg" width=50% height=50%>
+ <img src="https://github.com/shraddha375/AXI_protocol/blob/main/images/image7.jpg" width=25% height=25%>
 </p>
 
 ## AXI Stream
