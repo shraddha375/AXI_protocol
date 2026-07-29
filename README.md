@@ -1,6 +1,6 @@
 # AXI Interface
 
-## What is AMBA Protocols
+## What are AMBA Protocols
 
 The Arm Advanced Microcontroller Bus Architecture, is an open-standard, on-chip interconnect specification that define how functional blocks in an SoC design communicate with each other.
 The diagram below illustrates a typical SoC design, where multiple functional blocks rely on AMBA protocols such as AXI4 and AXI3 to communicate with one another:
